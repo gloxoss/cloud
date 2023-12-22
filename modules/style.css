@@ -1,0 +1,138 @@
+/* Add your custom styles here */
+
+/* Body styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header styles */
+.header--page {
+    background-color: #1D77FF;
+    padding: 15px 0;
+}
+
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Container styles */
+.container {
+    margin-top: 80px;
+}
+
+/* Card styles */
+.card-top {
+    background-color: #1D77FF;
+    color: #fff;
+    padding: 20px;
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* File box styles */
+.file-box {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.file-name {
+    margin: 0;
+}
+
+.file-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.file-link a:hover {
+    text-decoration: underline;
+}
+
+.file-delete-link {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.file-delete-link:hover {
+    background-color: #bd2130;
+}
+
+/* Sidebar styles */
+.card-sidebar {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.btn.sc-btn-gradient {
+    background: linear-gradient(to right, #007bff, #1D77FF);
+    color: #fff;
+}
+
+.btn.sc-btn-gradient:hover {
+    background: linear-gradient(to right, #0056b3, #0e45a2);
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #1D77FF;
+    color: #fff;
+}
+
+.footer-top {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Progress bar styles */
+.progress {
+    margin-top: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .card-sidebar {
+        margin-top: 20px;
+    }
+}
